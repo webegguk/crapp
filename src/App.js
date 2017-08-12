@@ -36,7 +36,6 @@ class App extends Component {
                     withFullScreenPortal={true}
                     numberOfMonths={2}
                     orientation={"vertical"}
-                    withFullScreenPortal={false}
                     isOutsideRange={() => false}
                     startDate={this.state.startDate} // momentPropTypes.momentObj or null,
                     endDate={this.state.endDate} // momentPropTypes.momentObj or null,
